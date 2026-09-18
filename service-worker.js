@@ -1,10 +1,11 @@
-const CACHE = 'odium-world-web-0.1-v1.6.9';
+const CACHE = 'odium-world-web-0.2-v1.6.9';
 const SHELL = [
   './',
   './index.html',
   './map/index.html',
   './map/styles.css',
   './map/web-bridge.js',
+  './map/usage-stats.js',
   './map/menu.js',
   './map/assets/odium-world-icon.png',
   './data/web-bundle.js',
@@ -31,6 +32,13 @@ self.addEventListener('fetch', event => {
 
   const url = new URL(request.url);
   const sameOrigin = url.origin === self.location.origin;
+
+  if (sameOrigin && url.pathname.endsWith('/stats-config.js')) {
+    event.respondWith(
+      fetch(request, { cache: 'no-store' }).catch(() => caches.match(request))
+    );
+    return;
+  }
 
   if (sameOrigin) {
     event.respondWith(

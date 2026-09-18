@@ -1,0 +1,16 @@
+{
+  "name": "odium-world-calculator-stats",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create odium-web-stats",
+    "db:init": "wrangler d1 execute odium-web-stats --remote --file=./schema.sql",
+    "stats:today": "wrangler d1 execute odium-web-stats --remote --file=./queries/today.sql",
+    "stats:history": "wrangler d1 execute odium-web-stats --remote --file=./queries/history.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

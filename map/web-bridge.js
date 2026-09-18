@@ -2,7 +2,7 @@
   'use strict';
 
   const VERSION = '1.6.9';
-  const WEB_VERSION = '0.1';
+  const WEB_VERSION = '0.2';
   const db = window.__ODIUM_WEB_DATA || {};
 
   const clone = value => {

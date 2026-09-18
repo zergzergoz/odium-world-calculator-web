@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://odiumworld.com; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://odiumworld.com; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://*.workers.dev; object-src 'none'; base-uri 'none'; frame-src 'none'">
   <title>Ультимативный калькулятор Odium World — Алхимия</title>
   <link rel="icon" href="assets/odium-world-icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -104,6 +104,6 @@
     </form>
   </dialog>
 
-  <script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="alchemy.js" defer></script>
+  <script src="../stats-config.js"></script><script src="usage-stats.js" defer></script><script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="alchemy.js" defer></script>
 </body>
 </html>

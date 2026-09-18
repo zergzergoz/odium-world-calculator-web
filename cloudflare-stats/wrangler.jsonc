@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "odium-world-calculator-stats",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-09-18",
+  "observability": {
+    "enabled": false
+  },
+  "vars": {
+    "ALLOWED_ORIGINS": "https://zergzergoz.github.io,http://localhost:8080,http://127.0.0.1:8080"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "odium-web-stats",
+      "database_id": "97bd0cbb-af71-4460-8a12-d23d00daf57d"
+    }
+  ],
+  "triggers": {
+    "crons": ["17 3 * * *"]
+  }
+}

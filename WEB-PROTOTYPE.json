@@ -1,7 +1,9 @@
 {
   "desktopBaseVersion": "1.6.9",
-  "webPrototypeVersion": "0.1",
+  "webPrototypeVersion": "0.2",
   "mode": "static",
   "wikiUpdates": "disabled-until-backend-proxy",
-  "pwa": true
+  "pwa": true,
+  "anonymousUsageStats": "cloudflare-worker-d1-optional",
+  "statsPrivacy": "daily-pseudonymous-id-only"
 }

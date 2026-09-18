@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://*.workers.dev; object-src 'none'; base-uri 'none'; frame-src 'none'">
   <title>Ультимативный калькулятор Odium World — Таланты</title>
   <link rel="icon" href="assets/odium-world-icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -26,6 +26,6 @@
   </main>
   <div id="talentTooltip" class="talent-tooltip" role="tooltip" hidden></div>
   <dialog id="buildErrorDialog" class="talent-build-dialog"><form method="dialog"><div class="talent-build-dialog-head"><strong>Ошибка импорта</strong><button class="icon-button" value="cancel" aria-label="Закрыть">×</button></div><p>Невозможно загрузить билд</p><div class="modal-actions"><button class="toolbar-button primary" value="cancel">Закрыть</button></div></form></dialog>
-  <script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="talents.js" defer></script>
+  <script src="../stats-config.js"></script><script src="usage-stats.js" defer></script><script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="talents.js" defer></script>
 </body>
 </html>
