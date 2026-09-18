@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://odiumworld.com; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <title>Ультимативный калькулятор Odium World — Алхимия</title>
+  <link rel="icon" href="assets/odium-world-icon.png">
+  <link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="../manifest.webmanifest"></head>
+<body class="alchemy-page">
+  <header class="page-header alchemy-header">
+    <button class="toolbar-button secondary" id="menuButton">⌂ <span>В меню</span></button>
+    <div>
+      <span class="eyebrow">ODIUM WORLD</span>
+      <h1>Калькулятор алхимии</h1>
+    </div>
+    <div class="header-spacer"></div>
+    <button class="toolbar-button primary" id="updateAlchemy">↻ Обновить из Odium World</button>
+    <button class="toolbar-button secondary" id="clearAlchemy">Очистить</button>
+  </header>
+
+  <main class="alchemy-layout">
+    <aside class="alchemy-sidebar">
+      <label class="search-box alchemy-search"><span>⌕</span><input id="alchemySearch" placeholder="Поиск зелья…"></label>
+      <div class="alchemy-section-title">Разделы</div>
+      <div id="alchemyCategories" class="alchemy-categories"></div>
+      <div id="alchemyStatus" class="alchemy-status"></div>
+    </aside>
+
+    <section class="alchemy-content">
+      <div class="alchemy-intro-card">
+        <div>
+          <span class="eyebrow">Планирование алхимии</span>
+          <h2>Что нужно приготовить?</h2>
+          <p>Выберите один или несколько рецептов и укажите количество. Справа автоматически суммируются ингредиенты и общее время изготовления.</p>
+        </div>
+        <div class="alchemy-orb" aria-hidden="true">⚗</div>
+      </div>
+
+      <section id="alchemySelectedPanel" class="selected-items-panel alchemy-selected-panel" hidden>
+        <div class="selected-items-head">
+          <div><span class="eyebrow">Выбрано</span><h2>Алхимические рецепты</h2></div>
+          <strong id="alchemySelectedCount">0 позиций</strong>
+        </div>
+        <div id="alchemySelected" class="selected-items-list"></div>
+      </section>
+
+      <div id="alchemyGrid" class="alchemy-grid"></div>
+      <div id="alchemyEmpty" class="empty-state" hidden></div>
+    </section>
+
+    <aside class="alchemy-summary-panel">
+      <div class="crafter-talents alchemy-talents">
+        <div class="crafter-talents-title">Использовать таланты алхимика</div>
+        <label class="crafter-talent-option">
+          <input id="alchemyTalentWunschpunsch" type="checkbox">
+          <span><strong>ВуншПунш</strong><small>Сокращает время приготовления Эликсиров на 50%.</small></span>
+        </label>
+        <label class="crafter-talent-option">
+          <input id="alchemyTalentExperienced" type="checkbox">
+          <span><strong>Опытный Алхимик</strong><small>На создание Эликсиров требуется на 15% меньше ресурсов. Дробное значение округляется вверх.</small></span>
+        </label>
+        <label class="crafter-talent-option">
+          <input id="alchemyTalentBottomless" type="checkbox">
+          <span><strong>Бездонный Котёл</strong><small>Для Эликсиров и Зелий больше не требуется Бутыль с Водой.</small></span>
+        </label>
+      </div>
+
+      <div class="alchemy-summary-head">
+        <div><span class="eyebrow">Итог</span><h2>Расчёт алхимии</h2></div>
+        <strong id="alchemySummaryCount">0</strong>
+      </div>
+
+      <div class="alchemy-time-card">
+        <span>Общее время изготовления</span>
+        <strong id="alchemyTotalTime">—</strong>
+        <small id="alchemyTimeHint">Выберите рецепт с указанным временем создания.</small>
+      </div>
+
+      <div class="alchemy-section-title">Необходимые ресурсы</div>
+      <div id="alchemyRequirements" class="alchemy-requirements"><p class="muted">Выберите один или несколько рецептов.</p></div>
+
+      <div id="alchemyWarnings" class="alchemy-warnings"></div>
+    </aside>
+  </main>
+
+  <dialog class="modal update-modal" id="alchemyUpdateModal">
+    <form method="dialog" id="alchemyUpdateForm">
+      <div class="modal-head">
+        <div><span class="eyebrow">Актуализация каталога</span><h2>Обновить данные алхимии</h2></div>
+        <button class="icon-button" id="cancelAlchemyUpdate" type="button" aria-label="Закрыть">×</button>
+      </div>
+      <p class="update-explain">Приложение попробует получить из Odium API раздел «Эликсиры» и карточки указанных зелий. Локальная база заменяется только после успешной загрузки.</p>
+      <label class="token-label">Bearer-токен Odium World <span class="token-optional">(если API потребует авторизацию)</span>
+        <input id="alchemyUpdateToken" type="password" autocomplete="off" placeholder="Можно оставить пустым для проверки без авторизации">
+      </label>
+      <p class="update-hint">Токен не сохраняется. Если API запросит авторизацию, можно использовать тот же Bearer-токен, что и для обновления базы крафта.</p>
+      <div id="alchemyUpdateResult" class="update-result" aria-live="polite"></div>
+      <div class="modal-actions">
+        <button id="cancelAlchemyUpdateAction" type="button" class="toolbar-button secondary">Отмена</button>
+        <button id="confirmAlchemyUpdate" type="submit" class="toolbar-button primary">Проверить и обновить</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="alchemy.js" defer></script>
+</body>
+</html>

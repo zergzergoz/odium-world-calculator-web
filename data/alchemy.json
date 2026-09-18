@@ -1,0 +1,3183 @@
+{
+  "version": 2,
+  "source": "https://odiumworld.com/wiki/items/subcategories/1/types/8",
+  "categories": [
+    {
+      "id": "potions",
+      "name": "Зелья",
+      "icon": "◉"
+    },
+    {
+      "id": "elixirs",
+      "name": "Эликсиры",
+      "icon": "✧"
+    },
+    {
+      "id": "herbs",
+      "name": "Хербы",
+      "icon": "❖"
+    },
+    {
+      "id": "special",
+      "name": "Особые",
+      "icon": "✦"
+    }
+  ],
+  "items": [
+    {
+      "id": "herb-luck",
+      "name": "Настойка Удачи",
+      "category": "herbs",
+      "icon": "assets/alchemy-items/herb-luck.png",
+      "sourceKind": "screenshot",
+      "sourceNote": "Требования перенесены со скриншота пользователя. Время приготовления: 5 минут.",
+      "recipes": [
+        {
+          "id": "herb-luck-1",
+          "productionCount": 1,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "name": "Колба",
+              "amount": 1,
+              "icon": "assets/alchemy-resources/flask.png"
+            },
+            {
+              "name": "Цветок Солнцецвета",
+              "amount": 500,
+              "icon": "assets/alchemy-resources/sunflower.png"
+            },
+            {
+              "name": "Цветок Луноцвета",
+              "amount": 500,
+              "icon": "assets/alchemy-resources/moonflower.png"
+            },
+            {
+              "name": "Жмых",
+              "amount": 50,
+              "icon": "assets/alchemy-resources/press-cake.png"
+            },
+            {
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "assets/alchemy-resources/water-bottle.png"
+            }
+          ],
+          "successRate": null
+        }
+      ],
+      "sourceUrl": "",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": ""
+    },
+    {
+      "id": "herb-exp",
+      "name": "Настойка Опыта",
+      "category": "herbs",
+      "icon": "assets/alchemy-items/herb-exp.png",
+      "sourceKind": "screenshot",
+      "sourceNote": "Требования перенесены с двух скриншотов пользователя. Две отдельные строки «Жмых ×400» сохранены как в источнике; в итогах они суммируются. Время приготовления: 5 минут.",
+      "recipes": [
+        {
+          "id": "herb-exp-1",
+          "productionCount": 1,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "name": "Жмых",
+              "amount": 400,
+              "icon": "assets/alchemy-resources/press-cake.png"
+            },
+            {
+              "name": "Колба",
+              "amount": 1,
+              "icon": "assets/alchemy-resources/flask.png"
+            },
+            {
+              "name": "Плоды Болотника",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/marsh-fruit.png"
+            },
+            {
+              "name": "Гриб",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/mushroom.png"
+            },
+            {
+              "name": "Луковица Ириса",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/iris-bulb.png"
+            },
+            {
+              "name": "Цветок Солнцецвета",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/sunflower.png"
+            },
+            {
+              "name": "Цветок Луноцвета",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/moonflower.png"
+            },
+            {
+              "name": "Бутон Плакучей Лилии",
+              "amount": 2000,
+              "icon": "assets/alchemy-resources/crying-lily-bud.png"
+            },
+            {
+              "name": "Жмых",
+              "amount": 400,
+              "icon": "assets/alchemy-resources/press-cake.png"
+            },
+            {
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "assets/alchemy-resources/water-bottle.png"
+            }
+          ],
+          "successRate": null
+        }
+      ],
+      "sourceUrl": "",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": ""
+    },
+    {
+      "id": "herb-hunt",
+      "name": "Настойка Охоты",
+      "category": "herbs",
+      "icon": "assets/alchemy-items/herb-hunt.png",
+      "sourceKind": "screenshot",
+      "sourceNote": "Требования перенесены со скриншота пользователя. Время приготовления: 5 минут.",
+      "recipes": [
+        {
+          "id": "herb-hunt-1",
+          "productionCount": 1,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "name": "Плоды Болотника",
+              "amount": 1000,
+              "icon": "assets/alchemy-resources/marsh-fruit.png"
+            },
+            {
+              "name": "Колба",
+              "amount": 1,
+              "icon": "assets/alchemy-resources/flask.png"
+            },
+            {
+              "name": "Бутон Плакучей Лилии",
+              "amount": 1000,
+              "icon": "assets/alchemy-resources/crying-lily-bud.png"
+            },
+            {
+              "name": "Жмых",
+              "amount": 100,
+              "icon": "assets/alchemy-resources/press-cake.png"
+            },
+            {
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "assets/alchemy-resources/water-bottle.png"
+            }
+          ],
+          "successRate": null
+        }
+      ],
+      "sourceUrl": "",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": ""
+    },
+    {
+      "id": 1608,
+      "name": "Эликсир Бодрости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_str_luc.png",
+      "sourceIcon": "lv4_unique_dye_str_luc",
+      "description": "При употреблении увеличивает: Скорость Передвижения  <font color=\"C270F6\">+8ед.</font>, Уклонение и Точность  <font color=\"C270F6\">+8ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1608",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 46,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 27,
+              "name": "Хитин",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_parasite_i00.png",
+              "sourceIcon": "etc_parasite_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1607,
+      "name": "Эликсир Бодрости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_str_luc.png",
+      "sourceIcon": "lv3_unique_dye_str_luc",
+      "description": "При употреблении увеличивает: Скорость Передвижения  <font color=\"C270F6\">+6ед.</font>, Уклонение и Точность  <font color=\"C270F6\">+6ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1607",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 39,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1606,
+      "name": "Эликсир Бодрости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_str_luc.png",
+      "sourceIcon": "lv2_unique_dye_str_luc",
+      "description": "При употреблении увеличивает: Скорость Передвижения  <font color=\"C270F6\">+4ед.</font>, Уклонение и Точность  <font color=\"C270F6\">+4ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1606",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 32,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1605,
+      "name": "Эликсир Бодрости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_str_luc.png",
+      "sourceIcon": "lv1_unique_dye_str_luc",
+      "description": "При употреблении увеличивает: Скорость Передвижения  <font color=\"C270F6\">+2ед.</font>, Уклонение и Точность  <font color=\"C270F6\">+2ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1605",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 25,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1604,
+      "name": "Эликсир Везения",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_dex_cha.png",
+      "sourceIcon": "lv4_unique_dye_dex_cha",
+      "description": "При употреблении увеличивает: Шанс Крит.Магии, Умений  <font color=\"C270F6\">+9%</font> и Атаки  <font color=\"C270F6\">+13%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1604",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 45,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 27,
+              "name": "Хитин",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_parasite_i00.png",
+              "sourceIcon": "etc_parasite_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1603,
+      "name": "Эликсир Везения",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_dex_cha.png",
+      "sourceIcon": "lv3_unique_dye_dex_cha",
+      "description": "При употреблении увеличивает: Шанс Крит.Магии, Умений  <font color=\"C270F6\">+7%</font> и Атаки  <font color=\"C270F6\">+10%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1603",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 38,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1602,
+      "name": "Эликсир Везения",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_dex_cha.png",
+      "sourceIcon": "lv2_unique_dye_dex_cha",
+      "description": "При употреблении увеличивает: Шанс Крит.Магии, Умений  <font color=\"C270F6\">+5%</font> и Атаки  <font color=\"C270F6\">+7%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1602",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 31,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1601,
+      "name": "Эликсир Везения",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_dex_cha.png",
+      "sourceIcon": "lv1_unique_dye_dex_cha",
+      "description": "При употреблении увеличивает: Шанс Крит.Магии, Умений  <font color=\"C270F6\">+3%</font> и Атаки  <font color=\"C270F6\">+4%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1601",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 24,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1609,
+      "name": "Эликсир Жизни",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_con_cha.png",
+      "sourceIcon": "lv1_unique_dye_con_cha",
+      "description": "При употреблении увеличивает: Максимальный Объем CP,HP и MP  <font color=\"C270F6\">+60ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1609",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 26,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1610,
+      "name": "Эликсир Жизни",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_con_cha.png",
+      "sourceIcon": "lv2_unique_dye_con_cha",
+      "description": "При употреблении увеличивает: Максимальный Объем CP,HP и MP  <font color=\"C270F6\">+110ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1610",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 33,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1611,
+      "name": "Эликсир Жизни",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_con_cha.png",
+      "sourceIcon": "lv3_unique_dye_con_cha",
+      "description": "При употреблении увеличивает: Максимальный Объем CP,HP и MP  <font color=\"C270F6\">+160ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1611",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 40,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1612,
+      "name": "Эликсир Жизни",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_con_cha.png",
+      "sourceIcon": "lv4_unique_dye_con_cha",
+      "description": "При употреблении увеличивает: Максимальный Объем CP,HP и MP  <font color=\"C270F6\">+225ед.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1612",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 47,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 31,
+              "name": "Чешуя",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_seed_yellow_i00.png",
+              "sourceIcon": "etc_seed_yellow_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1613,
+      "name": "Эликсир Могущества",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_int_cha.png",
+      "sourceIcon": "lv1_unique_dye_int_cha",
+      "description": "При употреблении увеличивает: Сила Крит.Удара  <font color=\"C270F6\">+4%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1613",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 27,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "name": "Эликсир Могущества",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_int_cha.png",
+      "sourceIcon": "lv2_unique_dye_int_cha",
+      "description": "При употреблении увеличивает: Сила Крит.Удара  <font color=\"C270F6\">+7%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1614",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 34,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1615,
+      "name": "Эликсир Могущества",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_int_cha.png",
+      "sourceIcon": "lv3_unique_dye_int_cha",
+      "description": "При употреблении увеличивает: Сила Крит.Удара  <font color=\"C270F6\">+9.5%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1615",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 41,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1616,
+      "name": "Эликсир Могущества",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_int_cha.png",
+      "sourceIcon": "lv4_unique_dye_int_cha",
+      "description": "При употреблении увеличивает: Сила Крит.Удара  <font color=\"C270F6\">+13%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1616",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 48,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 56,
+              "name": "Сердце",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_bodypart_heart_i00.png",
+              "sourceIcon": "etc_bodypart_heart_i00"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1594,
+      "name": "Эликсир Силы",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_str_cha.png",
+      "sourceIcon": "lv2_unique_dye_str_cha",
+      "description": "При употреблении увеличивает: Физ.Атаку  <font color=\"C270F6\">+4%</font> и Маг.Атаку  <font color=\"C270F6\">+5%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1594",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 29,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1596,
+      "name": "Эликсир Силы",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_str_cha.png",
+      "sourceIcon": "lv4_unique_dye_str_cha",
+      "description": "При употреблении увеличивает: Физ.Атаку  <font color=\"C270F6\">+8%</font> и Маг.Атаку  <font color=\"C270F6\">+9%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1596",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 43,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 27,
+              "name": "Хитин",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_parasite_i00.png",
+              "sourceIcon": "etc_parasite_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1595,
+      "name": "Эликсир Силы",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_str_cha.png",
+      "sourceIcon": "lv3_unique_dye_str_cha",
+      "description": "При употреблении увеличивает: Физ.Атаку  <font color=\"C270F6\">+6%</font> и Маг.Атаку  <font color=\"C270F6\">+7%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1595",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 36,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1593,
+      "name": "Эликсир Силы",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_str_cha.png",
+      "sourceIcon": "lv1_unique_dye_str_cha",
+      "description": "При употреблении увеличивает: Физ.Атаку  <font color=\"C270F6\">+2%</font> и Маг.Атаку  <font color=\"C270F6\">+3%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1593",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 22,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1600,
+      "name": "Эликсир Стойкости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_wit_cha.png",
+      "sourceIcon": "lv4_unique_dye_wit_cha",
+      "description": "При употреблении увеличивает: Защиту  <font color=\"C270F6\">+8%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1600",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 44,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 27,
+              "name": "Хитин",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_parasite_i00.png",
+              "sourceIcon": "etc_parasite_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1599,
+      "name": "Эликсир Стойкости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_wit_cha.png",
+      "sourceIcon": "lv3_unique_dye_wit_cha",
+      "description": "При употреблении увеличивает: Защиту  <font color=\"C270F6\">+6%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1599",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 37,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1598,
+      "name": "Эликсир Стойкости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_wit_cha.png",
+      "sourceIcon": "lv2_unique_dye_wit_cha",
+      "description": "При употреблении увеличивает: Защиту  <font color=\"C270F6\">+4%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1598",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 30,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1597,
+      "name": "Эликсир Стойкости",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_wit_cha.png",
+      "sourceIcon": "lv1_unique_dye_wit_cha",
+      "description": "При употреблении увеличивает: Защиту  <font color=\"C270F6\">+2%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1597",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 23,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 8,
+              "name": "Кости",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_piece_bone_white_i00.png",
+              "sourceIcon": "etc_piece_bone_white_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1617,
+      "name": "Эликсир Стремления",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv1_unique_dye_men_cha.png",
+      "sourceIcon": "lv1_unique_dye_men_cha",
+      "description": "При употреблении увеличивает: Скорость Произнесения Заклинаний и Скорость Атаки  <font color=\"C270F6\">+2%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1617",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 28,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 300,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 250,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 30,
+              "name": "Яд",
+              "amount": 2500,
+              "icon": "https://odiumworld.com/items/etc_poison_pouch_i00.png",
+              "sourceIcon": "etc_poison_pouch_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 5,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1618,
+      "name": "Эликсир Стремления",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv2_unique_dye_men_cha.png",
+      "sourceIcon": "lv2_unique_dye_men_cha",
+      "description": "При употреблении увеличивает: Скорость Произнесения Заклинаний и Скорость Атаки  <font color=\"C270F6\">+4%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1618",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 35,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 360,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 450,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 30,
+              "name": "Яд",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_poison_pouch_i00.png",
+              "sourceIcon": "etc_poison_pouch_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1619,
+      "name": "Эликсир Стремления",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv3_unique_dye_men_cha.png",
+      "sourceIcon": "lv3_unique_dye_men_cha",
+      "description": "При употреблении увеличивает: Скорость Произнесения Заклинаний и Скорость Атаки  <font color=\"C270F6\">+6%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1619",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 42,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 420,
+          "ingredients": [
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 30,
+              "name": "Яд",
+              "amount": 9000,
+              "icon": "https://odiumworld.com/items/etc_poison_pouch_i00.png",
+              "sourceIcon": "etc_poison_pouch_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 400,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1620,
+      "name": "Эликсир Стремления",
+      "category": "elixirs",
+      "wikiType": "Эликсиры",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/lv4_unique_dye_men_cha.png",
+      "sourceIcon": "lv4_unique_dye_men_cha",
+      "description": "При употреблении увеличивает: Скорость Произнесения Заклинаний и Скорость Атаки  <font color=\"C270F6\">+8%</font>.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1620",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 49,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 600,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 1250,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 30,
+              "name": "Яд",
+              "amount": 16500,
+              "icon": "https://odiumworld.com/items/etc_poison_pouch_i00.png",
+              "sourceIcon": "etc_poison_pouch_i00"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 750,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 12000,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1636,
+      "name": "Зелье Забвения",
+      "category": "special",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/elixir.png",
+      "sourceIcon": "elixir",
+      "description": "Предмет, необходимый для сброса талантов персонажа.",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1636",
+      "levelMin": null,
+      "levelMax": null,
+      "levelLabel": "",
+      "recipes": [
+        {
+          "id": 53,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 21600,
+          "ingredients": [
+            {
+              "id": 39,
+              "name": "Перо",
+              "amount": 10000,
+              "icon": "https://odiumworld.com/items/blessed_feather_i00.png",
+              "sourceIcon": "blessed_feather_i00"
+            },
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 38,
+              "name": "Кровь",
+              "amount": 10000,
+              "icon": "https://odiumworld.com/items/etc_dragon_blood_i00.png",
+              "sourceIcon": "etc_dragon_blood_i00"
+            },
+            {
+              "id": 31,
+              "name": "Чешуя",
+              "amount": 5000,
+              "icon": "https://odiumworld.com/items/etc_seed_yellow_i00.png",
+              "sourceIcon": "etc_seed_yellow_i00"
+            },
+            {
+              "id": 7,
+              "name": "Пыльца",
+              "amount": 3000,
+              "icon": "https://odiumworld.com/items/etc_powder_red_i00.png",
+              "sourceIcon": "etc_powder_red_i00"
+            },
+            {
+              "id": 1760,
+              "name": "Первозданная Энергия",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/cursed_prison_soul.png",
+              "sourceIcon": "cursed_prison_soul"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 2000,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1703,
+              "name": "Цветок Солнцецвета",
+              "amount": 2000,
+              "icon": "https://odiumworld.com/items/item_1703.png",
+              "sourceIcon": "item_1703"
+            },
+            {
+              "id": 1704,
+              "name": "Цветок Луноцвета",
+              "amount": 2000,
+              "icon": "https://odiumworld.com/items/item_1704.png",
+              "sourceIcon": "item_1704"
+            },
+            {
+              "id": 1705,
+              "name": "Бутон Паучьей Лилии",
+              "amount": 1500,
+              "icon": "https://odiumworld.com/items/item_1705.png",
+              "sourceIcon": "item_1705"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 150,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 1-29 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/117",
+      "levelMin": 1,
+      "levelMax": 29,
+      "levelLabel": "1–29",
+      "recipes": [
+        {
+          "id": 3,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 60,
+          "ingredients": [
+            {
+              "id": 1732,
+              "name": "Минзурка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 4,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 30-39 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/118",
+      "levelMin": 30,
+      "levelMax": 39,
+      "levelLabel": "30–39",
+      "recipes": [
+        {
+          "id": 6,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 90,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1733,
+              "name": "Сосуд",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 40-49 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/119",
+      "levelMin": 40,
+      "levelMax": 49,
+      "levelLabel": "40–49",
+      "recipes": [
+        {
+          "id": 9,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 120,
+          "ingredients": [
+            {
+              "id": 1734,
+              "name": "Пузырек",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 40,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1625,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 50-59 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1625",
+      "levelMin": 50,
+      "levelMax": 59,
+      "levelLabel": "50–59",
+      "recipes": [
+        {
+          "id": 12,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 150,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 156,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 80,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 12,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1626,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 60-69 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1626",
+      "levelMin": 60,
+      "levelMax": 69,
+      "levelLabel": "60–69",
+      "recipes": [
+        {
+          "id": 15,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 180,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 320,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 162,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1627,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 70-74 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1627",
+      "levelMin": 70,
+      "levelMax": 74,
+      "levelLabel": "70–74",
+      "recipes": [
+        {
+          "id": 18,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 210,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 580,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 280,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 18,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1628,
+      "name": "Зелье Защиты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_water.png",
+      "sourceIcon": "g_premium_dye_attribute_water",
+      "description": "При употреблении полностью защищает Вас от проклятий монстров и увеличивает защиту от них.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 75-80 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1628",
+      "levelMin": 75,
+      "levelMax": 80,
+      "levelLabel": "75–80",
+      "recipes": [
+        {
+          "id": 21,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 240,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 980,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1702,
+              "name": "Луковица Ириса",
+              "amount": 500,
+              "icon": "https://odiumworld.com/items/item_1702.png",
+              "sourceIcon": "item_1702"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 22,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 1-29 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/114",
+      "levelMin": 1,
+      "levelMax": 29,
+      "levelLabel": "1–29",
+      "recipes": [
+        {
+          "id": 2,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 60,
+          "ingredients": [
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1732,
+              "name": "Минзурка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 4,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 30-39 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/115",
+      "levelMin": 30,
+      "levelMax": 39,
+      "levelLabel": "30–39",
+      "recipes": [
+        {
+          "id": 5,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 90,
+          "ingredients": [
+            {
+              "id": 1733,
+              "name": "Сосуд",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 40-49 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/116",
+      "levelMin": 40,
+      "levelMax": 49,
+      "levelLabel": "40–49",
+      "recipes": [
+        {
+          "id": 8,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 120,
+          "ingredients": [
+            {
+              "id": 1734,
+              "name": "Пузырек",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 40,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1621,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 50-59 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1621",
+      "levelMin": 50,
+      "levelMax": 59,
+      "levelLabel": "50–59",
+      "recipes": [
+        {
+          "id": 11,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 150,
+          "ingredients": [
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 156,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 80,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 12,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1622,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 60-69 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1622",
+      "levelMin": 60,
+      "levelMax": 69,
+      "levelLabel": "60–69",
+      "recipes": [
+        {
+          "id": 14,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 180,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 320,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 162,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1623,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 70-74 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1623",
+      "levelMin": 70,
+      "levelMax": 74,
+      "levelLabel": "70–74",
+      "recipes": [
+        {
+          "id": 17,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 210,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 580,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 280,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 18,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "name": "Зелье Охоты",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/g_premium_dye_attribute_holy.png",
+      "sourceIcon": "g_premium_dye_attribute_holy",
+      "description": "При употреблении увеличивает: урон, наносимый монстрам во время охоты.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 75-80 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1624",
+      "levelMin": 75,
+      "levelMax": 80,
+      "levelLabel": "75–80",
+      "recipes": [
+        {
+          "id": 20,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 240,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 980,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1701,
+              "name": "Гриб",
+              "amount": 500,
+              "icon": "https://odiumworld.com/items/item_1701.png",
+              "sourceIcon": "item_1701"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 22,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1629,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 1-29 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1629",
+      "levelMin": 1,
+      "levelMax": 29,
+      "levelLabel": "1–29",
+      "recipes": [
+        {
+          "id": 1,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 60,
+          "ingredients": [
+            {
+              "id": 1732,
+              "name": "Минзурка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 4,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1630,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 30-39 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1630",
+      "levelMin": 30,
+      "levelMax": 39,
+      "levelLabel": "30–39",
+      "recipes": [
+        {
+          "id": 4,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 90,
+          "ingredients": [
+            {
+              "id": 1733,
+              "name": "Сосуд",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 10,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1631,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 40-49 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1631",
+      "levelMin": 40,
+      "levelMax": 49,
+      "levelLabel": "40–49",
+      "recipes": [
+        {
+          "id": 7,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 120,
+          "ingredients": [
+            {
+              "id": 1734,
+              "name": "Пузырек",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 40,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 20,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1632,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 50-59 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1632",
+      "levelMin": 50,
+      "levelMax": 59,
+      "levelLabel": "50–59",
+      "recipes": [
+        {
+          "id": 10,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 150,
+          "ingredients": [
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 12,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            },
+            {
+              "id": 1735,
+              "name": "Флакон",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 156,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 80,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1633,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 60-69 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1633",
+      "levelMin": 60,
+      "levelMax": 69,
+      "levelLabel": "60–69",
+      "recipes": [
+        {
+          "id": 13,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 180,
+          "ingredients": [
+            {
+              "id": 1736,
+              "name": "Банка",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 320,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 162,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 15,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1634,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 70-74 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1634",
+      "levelMin": 70,
+      "levelMax": 74,
+      "levelLabel": "70–74",
+      "recipes": [
+        {
+          "id": 16,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 210,
+          "ingredients": [
+            {
+              "id": 1737,
+              "name": "Бутыль",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 580,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 280,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 18,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1635,
+      "name": "Зелье Скорости",
+      "category": "potions",
+      "wikiType": "Зелья",
+      "wikiSubType": "",
+      "icon": "https://odiumworld.com/items/etc_potion_clear_i00.png",
+      "sourceIcon": "etc_potion_clear_i00",
+      "description": "При употреблении увеличивает: скорость передвижения персонажа.\\n<font color='#FFDF4C'>Внимание!!! могут использовать персонажи 75-80 уровня.</font>",
+      "sourceKind": "wiki",
+      "sourceUrl": "https://odiumworld.com/wiki/items/types/1/details/1635",
+      "levelMin": 75,
+      "levelMax": 80,
+      "levelLabel": "75–80",
+      "recipes": [
+        {
+          "id": 19,
+          "name": "",
+          "productionCount": 1,
+          "successRate": null,
+          "craftTimeSeconds": 240,
+          "ingredients": [
+            {
+              "id": 1738,
+              "name": "Колба",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/etc_reagent_white_i00.png",
+              "sourceIcon": "etc_reagent_white_i00"
+            },
+            {
+              "id": 1699,
+              "name": "Стебель Тысячелистника",
+              "amount": 980,
+              "icon": "https://odiumworld.com/items/item_1699.png",
+              "sourceIcon": "item_1699"
+            },
+            {
+              "id": 1700,
+              "name": "Плоды Болотника",
+              "amount": 500,
+              "icon": "https://odiumworld.com/items/item_1700.png",
+              "sourceIcon": "item_1700"
+            },
+            {
+              "id": 1725,
+              "name": "Жмых",
+              "amount": 22,
+              "icon": "https://odiumworld.com/items/etc_mithril_ore_i00.png",
+              "sourceIcon": "etc_mithril_ore_i00"
+            },
+            {
+              "id": 1762,
+              "name": "Бутыль с Водой",
+              "amount": 1,
+              "icon": "https://odiumworld.com/items/br_vitality_potion_i00.png",
+              "sourceIcon": "br_vitality_potion_i00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wiki": {
+    "elixirsUrl": "https://odiumworld.com/wiki/items/subcategories/1/types/8",
+    "targetNames": [
+      "Зелье Охоты",
+      "Зелье Защиты",
+      "Зелье Скорости",
+      "Зелье забвения"
+    ]
+  }
+}

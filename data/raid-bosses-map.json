@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "source": "user-supplied-map-coordinates",
+  "items": [
+    {
+      "name": "Унаарг",
+      "level": 55,
+      "ids": [
+        48170
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -46186,
+          "worldY": 206191,
+          "worldZ": -3536,
+          "id": 48170
+        }
+      ]
+    },
+    {
+      "name": "Хелаксис",
+      "level": 55,
+      "ids": [
+        9951
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 2640,
+          "worldY": 162698,
+          "worldZ": -3672,
+          "id": 9951
+        }
+      ]
+    },
+    {
+      "name": "Железный дровосек",
+      "level": 55,
+      "ids": [
+        20907
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 47273,
+          "worldY": 109501,
+          "worldZ": -2016,
+          "id": 20907
+        }
+      ]
+    },
+    {
+      "name": "Ау'тур",
+      "level": 55,
+      "ids": [
+        48615
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 54169,
+          "worldY": 145484,
+          "worldZ": -3080,
+          "id": 48615
+        }
+      ]
+    },
+    {
+      "name": "Скитающийся ужас",
+      "level": 55,
+      "ids": [
+        189
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -49323,
+          "worldY": 106366,
+          "worldZ": -3328,
+          "id": 189
+        }
+      ]
+    },
+    {
+      "name": "Хаммел",
+      "level": 55,
+      "ids": [
+        51
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -54410,
+          "worldY": 146504,
+          "worldZ": -2865,
+          "id": 51
+        }
+      ]
+    },
+    {
+      "name": "Хорус",
+      "level": 55,
+      "ids": [
+        51707
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 55945,
+          "worldY": 164523,
+          "worldZ": -2632,
+          "id": 51707
+        }
+      ]
+    },
+    {
+      "name": "Турзаан",
+      "level": 55,
+      "ids": [
+        25936
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 22820,
+          "worldY": 109367,
+          "worldZ": -3696,
+          "id": 25936
+        }
+      ]
+    },
+    {
+      "name": "Поедатель эльфов",
+      "level": 55,
+      "ids": [
+        26030
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -1468,
+          "worldY": 53620,
+          "worldZ": -3480,
+          "id": 26030
+        }
+      ]
+    },
+    {
+      "name": "Необузданный",
+      "level": 55,
+      "ids": [
+        26539
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -47239,
+          "worldY": 218974,
+          "worldZ": -2400,
+          "id": 26539
+        }
+      ]
+    },
+    {
+      "name": "Гордон",
+      "level": 65,
+      "ids": [],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 71580,
+          "worldY": 93541,
+          "worldZ": -3528,
+          "id": null
+        }
+      ]
+    },
+    {
+      "name": "Крушитель",
+      "level": 65,
+      "ids": [
+        29170
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 66679,
+          "worldY": 46723,
+          "worldZ": -3912,
+          "id": 29170
+        }
+      ]
+    },
+    {
+      "name": "Аарон и Гуум",
+      "level": 65,
+      "ids": [
+        44928
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 101481,
+          "worldY": 29053,
+          "worldZ": -3528,
+          "id": 44928
+        }
+      ]
+    },
+    {
+      "name": "Санктум",
+      "level": 65,
+      "ids": [
+        25886
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 123066,
+          "worldY": 218085,
+          "worldZ": -3704,
+          "id": 25886
+        }
+      ]
+    },
+    {
+      "name": "Обезглавленный рыцарь",
+      "level": 65,
+      "ids": [
+        51414
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 92286,
+          "worldY": 115385,
+          "worldZ": -3144,
+          "id": 51414
+        }
+      ]
+    },
+    {
+      "name": "Дракер",
+      "level": 65,
+      "ids": [
+        1251
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 111676,
+          "worldY": 112220,
+          "worldZ": -2768,
+          "id": 1251
+        }
+      ]
+    },
+    {
+      "name": "Драгзар",
+      "level": 65,
+      "ids": [
+        48849
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 105752,
+          "worldY": 113345,
+          "worldZ": -3184,
+          "id": 48849
+        }
+      ]
+    },
+    {
+      "name": "Кираксис",
+      "level": 65,
+      "ids": [
+        15992
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 91853,
+          "worldY": 69331,
+          "worldZ": -3528,
+          "id": 15992
+        }
+      ]
+    },
+    {
+      "name": "Алуксин",
+      "level": 75,
+      "ids": [
+        64521
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 170323,
+          "worldY": 42648,
+          "worldZ": -4801,
+          "id": 64521
+        }
+      ]
+    },
+    {
+      "name": "Малук",
+      "level": 75,
+      "ids": [
+        249
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 171391,
+          "worldY": 9260,
+          "worldZ": -2720,
+          "id": 249
+        }
+      ]
+    },
+    {
+      "name": "Атрис Мучитель",
+      "level": 75,
+      "ids": [
+        64446
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 115043,
+          "worldY": 16027,
+          "worldZ": -640,
+          "id": 64446
+        }
+      ]
+    },
+    {
+      "name": "Роххан пробужденный",
+      "level": 75,
+      "ids": [
+        34177
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 190217,
+          "worldY": -14027,
+          "worldZ": -1312,
+          "id": 34177
+        }
+      ]
+    },
+    {
+      "name": "Древень",
+      "level": 75,
+      "ids": [
+        3620
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 144197,
+          "worldY": 74788,
+          "worldZ": -3336,
+          "id": 3620
+        }
+      ]
+    },
+    {
+      "name": "Древобород",
+      "level": 75,
+      "ids": [
+        2987
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 144332,
+          "worldY": 74295,
+          "worldZ": -3344,
+          "id": 2987
+        }
+      ],
+      "wikiId": 1101
+    },
+    {
+      "name": "Морской дракон",
+      "level": 75,
+      "ids": [
+        14446
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 102528,
+          "worldY": 157133,
+          "worldZ": -3712,
+          "id": 14446
+        }
+      ]
+    },
+    {
+      "name": "Караптор",
+      "level": 75,
+      "ids": [
+        33646
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 148866,
+          "worldY": 117907,
+          "worldZ": -3696,
+          "id": 33646
+        }
+      ]
+    },
+    {
+      "name": "Анку",
+      "level": 75,
+      "ids": [
+        25783
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 124916,
+          "worldY": 40693,
+          "worldZ": -4344,
+          "id": 25783
+        }
+      ]
+    },
+    {
+      "name": "Априс (дневной)",
+      "level": 68,
+      "ids": [
+        41159
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 33695,
+          "worldY": 182395,
+          "worldZ": -3256,
+          "id": 41159
+        }
+      ]
+    },
+    {
+      "name": "Му'трак",
+      "level": 68,
+      "ids": [
+        34265
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 48742,
+          "worldY": 147500,
+          "worldZ": -3216,
+          "id": 34265
+        }
+      ]
+    },
+    {
+      "name": "Минотавр",
+      "level": 68,
+      "ids": [
+        33807
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 26737,
+          "worldY": 143048,
+          "worldZ": -2840,
+          "id": 33807
+        }
+      ]
+    },
+    {
+      "name": "Архилич",
+      "level": 68,
+      "ids": [
+        42627
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -17470,
+          "worldY": 142946,
+          "worldZ": -3896,
+          "id": 42627
+        }
+      ]
+    },
+    {
+      "name": "Шаи-хулуд",
+      "level": 68,
+      "ids": [],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -13596,
+          "worldY": 181082,
+          "worldZ": -4193,
+          "id": null
+        }
+      ]
+    },
+    {
+      "name": "Поганище",
+      "level": 68,
+      "ids": [
+        2998
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -48996,
+          "worldY": 111479,
+          "worldZ": -3568,
+          "id": 2998
+        }
+      ]
+    },
+    {
+      "name": "Ора",
+      "level": 68,
+      "ids": [
+        39791
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 125381,
+          "worldY": 136101,
+          "worldZ": -3696,
+          "id": 39791
+        }
+      ]
+    },
+    {
+      "name": "Морской черт",
+      "level": 68,
+      "ids": [
+        17681
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 115459,
+          "worldY": 198535,
+          "worldZ": -3736,
+          "id": 17681
+        }
+      ]
+    },
+    {
+      "name": "Ниател",
+      "level": 68,
+      "ids": [
+        57456
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 64220,
+          "worldY": 108744,
+          "worldZ": -3264,
+          "id": 57456
+        }
+      ]
+    },
+    {
+      "name": "Земпфер",
+      "level": 68,
+      "ids": [
+        11889
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 42720,
+          "worldY": 130612,
+          "worldZ": -3384,
+          "id": 11889
+        }
+      ]
+    },
+    {
+      "name": "Мать роя",
+      "level": 68,
+      "ids": [
+        27638
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 11778,
+          "worldY": 116227,
+          "worldZ": -3675,
+          "id": 27638
+        }
+      ]
+    },
+    {
+      "name": "Всадник рока",
+      "level": 78,
+      "ids": [
+        44729
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 168162,
+          "worldY": -8237,
+          "worldZ": -2947,
+          "id": 44729
+        }
+      ]
+    },
+    {
+      "name": "Империй",
+      "level": 78,
+      "ids": [
+        40722
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 114865,
+          "worldY": 16287,
+          "worldZ": 5984,
+          "id": 40722
+        }
+      ]
+    },
+    {
+      "name": "Дарион",
+      "level": 78,
+      "ids": [
+        62237
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 114382,
+          "worldY": 16050,
+          "worldZ": 2992,
+          "id": 62237
+        }
+      ]
+    },
+    {
+      "name": "Аннигилятор",
+      "level": 78,
+      "ids": [
+        17649
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 186892,
+          "worldY": 56273,
+          "worldZ": -4579,
+          "id": 17649
+        }
+      ]
+    },
+    {
+      "name": "Покровитель мертвых",
+      "level": 78,
+      "ids": [
+        36832
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 192938,
+          "worldY": 22455,
+          "worldZ": -3626,
+          "id": 36832
+        }
+      ]
+    },
+    {
+      "name": "Древний энт",
+      "level": 78,
+      "ids": [
+        43597
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 114494,
+          "worldY": 48358,
+          "worldZ": -4584,
+          "id": 43597
+        }
+      ]
+    },
+    {
+      "name": "Вечная Матерь",
+      "level": 78,
+      "ids": [
+        5679
+      ],
+      "aliases": [
+        "Bечная Матерь"
+      ],
+      "points": [
+        {
+          "worldX": 43755,
+          "worldY": 17222,
+          "worldZ": -4392,
+          "id": 5679
+        }
+      ]
+    },
+    {
+      "name": "Таам кенч",
+      "level": 78,
+      "ids": [
+        31560
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 85555,
+          "worldY": 256954,
+          "worldZ": -11673,
+          "id": 31560
+        }
+      ]
+    },
+    {
+      "name": "Спарагмос",
+      "level": 78,
+      "ids": [
+        18860
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 145922,
+          "worldY": 119137,
+          "worldZ": -3919,
+          "id": 18860
+        }
+      ]
+    },
+    {
+      "name": "Ифрит",
+      "level": 78,
+      "ids": [
+        32507
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -55731,
+          "worldY": 181341,
+          "worldZ": -4817,
+          "id": 32507
+        }
+      ]
+    },
+    {
+      "name": "Небула",
+      "level": 78,
+      "ids": [
+        107
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": -53993,
+          "worldY": 185028,
+          "worldZ": -4618,
+          "id": 107
+        }
+      ]
+    },
+    {
+      "name": "Гаолокар",
+      "level": 78,
+      "ids": [
+        49588
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 85335,
+          "worldY": 21352,
+          "worldZ": -5292,
+          "id": 49588
+        }
+      ]
+    },
+    {
+      "name": "Игнис",
+      "level": 78,
+      "ids": [
+        16749
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 139149,
+          "worldY": -21364,
+          "worldZ": -3112,
+          "id": 16749
+        }
+      ]
+    },
+    {
+      "name": "Айстелия",
+      "level": 78,
+      "ids": [
+        44964
+      ],
+      "aliases": [],
+      "points": [
+        {
+          "worldX": 166159,
+          "worldY": 88750,
+          "worldZ": -2377,
+          "id": 44964
+        }
+      ]
+    }
+  ]
+}

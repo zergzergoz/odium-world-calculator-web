@@ -1,0 +1,7 @@
+{
+  "desktopBaseVersion": "1.6.9",
+  "webPrototypeVersion": "0.1",
+  "mode": "static",
+  "wikiUpdates": "disabled-until-backend-proxy",
+  "pwa": true
+}

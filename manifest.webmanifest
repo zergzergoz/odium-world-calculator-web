@@ -1,0 +1,19 @@
+{
+  "name": "Ультимативный калькулятор Odium World",
+  "short_name": "Odium Calculator",
+  "description": "Веб-версия карты и калькуляторов Odium World",
+  "lang": "ru",
+  "start_url": "./map/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#11130f",
+  "theme_color": "#11130f",
+  "icons": [
+    {
+      "src": "./map/assets/odium-world-icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

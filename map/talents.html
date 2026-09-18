@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-src 'none'">
+  <title>Ультимативный калькулятор Odium World — Таланты</title>
+  <link rel="icon" href="assets/odium-world-icon.png">
+  <link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="../manifest.webmanifest"></head>
+<body class="talents-page">
+  <header class="page-header talents-header">
+    <button class="toolbar-button secondary" id="menuButton">⌂ <span>В меню</span></button>
+    <div>
+      <span class="eyebrow">ODIUM WORLD</span>
+      <h1>Калькулятор талантов</h1>
+    </div>
+    <div class="header-spacer"></div>
+    <label class="talent-build-name"><span>Название билда</span><input id="buildName" type="text" maxlength="80" value="Мой билд" autocomplete="off"></label><label class="talent-player-level"><span>Уровень персонажа</span><input id="playerLevel" type="number" min="1" max="80" value="1" inputmode="numeric"></label>
+    <button class="toolbar-button secondary" id="saveTalentBuild">Сохранить билд</button><button class="toolbar-button secondary" id="importTalentBuild">Импортировать билд</button><button class="toolbar-button secondary" id="resetTalents">Сбросить</button>
+    <div class="talent-summary"><span>Очки талантов</span><strong id="grandTotal">0 / 0 P</strong><small id="talentRemaining">Доступно: 0</small></div>
+  </header>
+  <main class="talent-page-content">
+    <div class="talent-intro">ЛКМ — вложить очко. ПКМ — убрать одно очко. Для закрытых талантов учитываются очки, вложенные выше по ветке, уровень персонажа и связи между талантами.</div>
+    <section id="talentGrid" class="talent-grid" aria-label="Деревья талантов"></section>
+  </main>
+  <div id="talentTooltip" class="talent-tooltip" role="tooltip" hidden></div>
+  <dialog id="buildErrorDialog" class="talent-build-dialog"><form method="dialog"><div class="talent-build-dialog-head"><strong>Ошибка импорта</strong><button class="icon-button" value="cancel" aria-label="Закрыть">×</button></div><p>Невозможно загрузить билд</p><div class="modal-actions"><button class="toolbar-button primary" value="cancel">Закрыть</button></div></form></dialog>
+  <script src="../data/web-bundle.js"></script><script src="web-bridge.js" defer></script><script src="talents.js" defer></script>
+</body>
+</html>
